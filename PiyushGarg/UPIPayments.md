@@ -26,8 +26,8 @@ Together, these details uniquely identify exactly which account, at which bank, 
 **Traditional transfer mechanisms included:**
 
 - **IMPS (Immediate Payment Service):** Used for smaller amounts (say, ₹1,000 to ₹2,000) where the transfer needed to reflect instantly.
-- **NEFT (National Electronic Funds Transfer):** Could handle larger amounts (say, ₹50,000 to ₹1,00,000), but was not instant. It typically took a couple of hours to process and reflect in the recipient's account. This is why, after an NEFT transfer, people would often share a UTR number or a screenshot as temporary proof of payment.
-- **RTGS (Real Time Gross Settlement):** Used for very large amounts (say, ₹5,00,000 to ₹20,00,000+), and was genuinely real-time, reflecting in the recipient's account as soon as the transfer was made.
+- **NEFT (National Electronic Funds Transfer):** Could handle larger amounts (say, ₹50,000 to ₹1,00,000). Historically (before December 2019), NEFT was not instant: it settled in fixed hourly batches only during banking hours on working days, so a transfer could take a couple of hours, or even until the next business day, to reflect in the recipient's account, which is why people would often share a UTR number or a screenshot as temporary proof of payment. Since December 2019, the RBI made NEFT available 24x7x365, settling in half-hourly batches, so transfers today typically reflect within about 30 minutes.
+- **RTGS (Real Time Gross Settlement):** Used for very large amounts (with a regulatory minimum of ₹2,00,000 per transaction, and no upper limit), and was genuinely real-time, reflecting in the recipient's account as soon as the transfer was made. RTGS has also been available 24x7x365 since December 2020.
 
 These traditional systems required a lot of detailed information and were often not instant. **UPI (Unified Payment Interface)** was built specifically to simplify this entire experience: open an app, enter a simple ID, and the transfer is done, instantly.
 

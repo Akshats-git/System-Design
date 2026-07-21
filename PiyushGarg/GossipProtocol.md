@@ -68,7 +68,7 @@ As systems grow into many nodes (instances), two recurring problems appear in an
 1. **Tracking liveness:** knowing which nodes are currently alive and healthy.
 2. **Communication:** letting nodes exchange state/data with each other.
 
-> **Definition:** A centralized state management service (such as Apache ZooKeeper, used by systems like Apache Kafka) is a dedicated central coordinator that tracks which nodes are alive (via periodic heartbeats), manages service discovery, and maintains the overall cluster state.
+> **Definition:** A centralized state management service (such as Apache ZooKeeper) is a dedicated central coordinator that tracks which nodes are alive (via periodic heartbeats), manages service discovery, and maintains the overall cluster state. Apache Kafka relied on ZooKeeper in exactly this role for many years, though newer Kafka versions have moved to a built-in consensus mechanism called KRaft, removing the ZooKeeper dependency entirely. ZooKeeper remains a widely used example of this centralized pattern in other systems.
 
 ```
 Node 1 --heartbeat--> Central State Manager (e.g. ZooKeeper)

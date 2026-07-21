@@ -180,7 +180,7 @@ As the number of users on your platform grows, you can proportionally increase y
 
 Bloom filters are used well beyond just checking username availability. A few real-world examples mentioned in the video:
 
-- **Google Chrome** uses a Bloom filter to quickly check whether a URL might be malicious or has been flagged as unsafe, before doing a more expensive, definitive check.
+- **Google Chrome's Safe Browsing feature** historically used a Bloom filter to quickly check whether a URL might be malicious or had been flagged as unsafe, before doing a more expensive, definitive check against Google's servers. (Chrome has since moved to other space-efficient structures, such as prefix sets, but this remains one of the most commonly cited real-world examples of a Bloom filter in production.)
 - **Spam filters** use Bloom filters to quickly flag whether an incoming email might be spam.
 - **Email availability checks** (for example, on Gmail, when you're choosing a new email address) work in a very similar way to the username example above.
 

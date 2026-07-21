@@ -54,7 +54,7 @@ This waiting period is what's known as **buffering**. Now imagine this same appr
 
 As technology evolved, dedicated streaming protocols were introduced to solve the progressive download problem.
 
-> **Definition:** RTMP (Real-Time Messaging Protocol, created by Adobe) and RTSP (Real-Time Streaming Protocol, created by RealNetworks) are specialized streaming protocols that allow video to be sent to a client in **chunks**, instead of requiring the entire file to be downloaded up front.
+> **Definition:** RTMP (Real-Time Messaging Protocol, originally developed by Macromedia in 2002, and later kept proprietary by Adobe after it acquired Macromedia in 2005, before Adobe eventually released it as an open specification in 2012) and RTSP (Real-Time Streaming Protocol, jointly developed by RealNetworks, Netscape, and Columbia University and standardized as RFC 2326) are specialized streaming protocols that allow video to be sent to a client in **chunks**, instead of requiring the entire file to be downloaded up front.
 
 These protocols introduced two major benefits:
 
